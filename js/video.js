@@ -16,5 +16,6 @@ class Video {
 		for (let i = 0; i < this.quoteList.length; i++) {
 			quoteHtmlList.appendChild(this.quoteList[i].generate(quoteTemplate));			
 		}
+        return clone;
 	}
 }

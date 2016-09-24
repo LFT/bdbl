@@ -35,7 +35,7 @@ function init() {
 		videos[quote.videoName].add(quote);
     }
 	for (let videoName in videos) {
-		videos[videoName].generate(videoTemplate, quoteTemplate);
+		videoHtmlList.appendChild(videos[videoName].generate(videoTemplate, quoteTemplate));
 	}
     document.addEventListener("keydown", playOnKeyDown);
     document.addEventListener("click", playOnClick);

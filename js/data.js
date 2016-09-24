@@ -15,7 +15,7 @@ const videoData = [{
 		"youtube" : ""
 	},
 	{
-		"name" : "Dracula"
+		"name" : "Dracula",
 		"youtube" : ""
 	}
 ];

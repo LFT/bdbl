@@ -11,6 +11,7 @@ class Quote {
        this.audioElement.src = `../audio/${this.audio}.mp3`;
        clone.querySelector(".key").textContent = this.key;
        clone.querySelector(".name").textContent = this.name;
+       clone.querySelector("div").addEventListener("click", e => this.play());
        return clone;
     }
     play() {

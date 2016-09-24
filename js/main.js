@@ -9,18 +9,6 @@ function playOnKeyDown(evt) {
         quotes[key].play();
     }
 }
-function playOnClick(evt) {
-    let target = evt.target;
-    let elt;
-    if (target.className === "quote") {
-        elt = target;
-    } else if (target.parentElement.className === "quote") {
-        elt = target.parentElement;
-    }
-    if (elt) {
-        elt.querySelector("audio").play();
-    }
-}
 function init() {
     videoTemplate = document.getElementById("videoTemplate");
     quoteTemplate = document.getElementById("quoteTemplate");
@@ -38,7 +26,6 @@ function init() {
 		videoHtmlList.appendChild(videos[videoName].generate(videoTemplate, quoteTemplate));
 	}
     document.addEventListener("keydown", playOnKeyDown);
-    document.addEventListener("click", playOnClick);
 }
 
 document.addEventListener("DOMContentLoaded", init);

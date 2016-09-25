@@ -52,23 +52,44 @@ const quoteData = [{
 // c, d, f, j, k, l, m, n, p, 1
 // ? p
 const videoData = [{	
-		"name" : "Cyrano",
-		"youtube" : ""
+		"id" : "cyrano",
+		"name" : "Cyrano de Bergerac",
+		"youtube" : "ImZxePaJqIM"
 	},
 	{
+		"id" : "dracula",
 		"name" : "Dracula",
-		"youtube" : ""
+		"youtube" : "PdYKn4_CLy0"
 	},
 	{
+		"id" : "germinal",
 		"name" : "Germinal",
-		"youtube" : ""
+		"youtube" : "zwis51PRIyU"
 	},
 	{
-		"name" : "Jeckyll",
-		"youtube" : ""
+		"id" : "jeckyll",
+		"name" : "Dr Jekyll & Mr Hyde",
+		"youtube" : "bYJ5vP5XHRA"
 	},
 	{
-		"name" : "Metamorphose",
-		"youtube" : ""
+		"id" : "metamorphose",
+		"name" : "La Métamorphose",
+		"youtube" : "QtXwRFv5xsw"
 	}
 ];
+
+/*
+Le Parfum Jj1QBxcNmmI
+Phèdre m20msXnvIGY
+L'Odyssée t7wq-T6zpOs
+Les liaisons dangereuse _s4q1PbdEMw
+Le père Goriot iJHXzlhB6Gk
+Roméo et juliette -Yk48TEGIao
+Le petit prince sdETSsEk1-g
+Le cid KAPfIL5ZaHw
+La princesse de Clève ZwZ_i_v1Huk
+Le misanthrope OuFulRC1vsE
+Les misérables aja7Po9XV1s
+Lorenzaccio 4XMw0YWUXVE
+Les fables de La Fontaine irmu5QUtxXI
+*/

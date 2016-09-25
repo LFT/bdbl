@@ -14,8 +14,8 @@ function init() {
     quoteTemplate = document.getElementById("quoteTemplate");
     videoHtmlList = document.getElementById("videoList");
     for (let i = 0; i < videoData.length; i++) {
-        let video = new Video(videoData[i].name, videoData[i].youtube);
-        videos[videoData[i].name.toLowerCase()] = video;
+        let video = new Video(videoData[i].id, videoData[i].name, videoData[i].youtube);
+        videos[video.id] = video;
     } 
     for (let i = 0; i < quoteData.length; i++) {
         let quote = new Quote(quoteData[i].src, quoteData[i].key, quoteData[i].name);

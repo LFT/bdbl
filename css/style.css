@@ -1,22 +1,24 @@
 @media (min-width: 1000px) {
     #videoList{
-        width: 40%;
+        width: 50%;
     }
 }
 
-@media (min-width: 500px) and (max-width:1000px) {
+@media (min-width: 600px) and (max-width:1000px) {
     #videoList{
-        width: 400px;
+        width: 500px;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     #videoList{
-        width: 200px;
+        width: 250px;
     }
 }
 body {
     display : flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 kbd > kbd {
     font-family:Arial,Helvetica,sans-serif;
@@ -36,7 +38,7 @@ kbd > kbd {
 }
 
 .videoBlock {
-    flex: 0 0 200px;
+    flex: 0 0 250px;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
@@ -52,6 +54,7 @@ kbd > kbd {
 }
 
 .quoteList {
+    cursor: pointer;
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
@@ -59,5 +62,6 @@ kbd > kbd {
 }
 .quote {
     margin-bottom: 5px;
+    font-size: 1.1em;
     flex: 0 0 auto;
 }

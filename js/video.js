@@ -1,7 +1,8 @@
 class Video {
-    constructor(name, youtubeLink) {
+    constructor(id, name, youtubeLink) {
         this.quoteList = [];
         this.youtubeLink = youtubeLink;
+        this.id = id;
         this.name = name;
     }
 	add(quote) {

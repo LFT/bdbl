@@ -1,3 +1,23 @@
+@media (min-width: 1000px) {
+    #videoList{
+        width: 40%;
+    }
+}
+
+@media (min-width: 500px) and (max-width:1000px) {
+    #videoList{
+        width: 400px;
+    }
+}
+@media (max-width: 500px) {
+    #videoList{
+        width: 200px;
+    }
+}
+body {
+    display : flex;
+    justify-content: center;
+}
 kbd > kbd {
     font-family:Arial,Helvetica,sans-serif;
     border: lightgrey 1px solid;
@@ -6,4 +26,38 @@ kbd > kbd {
     border-radius: 5px;
     font-variant: small-caps;
     background-color:#f7f7f7;
+}
+
+#videoList{
+    flex : 0 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.videoBlock {
+    flex: 0 0 200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.videoTitle {
+    flex: 0 0 auto;
+    text-align: center;
+    font-size: 1.3em;
+}
+.videoTitle a {
+    color: black;
+    text-decoration: none;
+}
+
+.quoteList {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote {
+    margin-bottom: 5px;
+    flex: 0 0 auto;
 }

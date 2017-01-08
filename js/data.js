@@ -14,11 +14,6 @@ const quoteData = [{
         "name": "Kebab"
     },
     {
-        "src" : "dracula_passe",
-        "key" : "1",
-        "name": "Il s'en passe"
-    },
-    {
         "src" : "dracula_norris",
         "key" : "n",
         "name": "Chuck N."
@@ -107,9 +102,29 @@ const quoteData = [{
         "src" : "misanthrope_tchao",
         "key" : "t",
         "name": "Tchao"
+    },
+    {
+        "src" : "parfum_kermitt",
+        "key" : "v",
+        "name": "Kermitt"
+    },
+    {
+        "src" : "parfum_fouette",
+        "key" : "x",
+        "name": "Ça fouette"
+    },
+    {
+        "src" : "bovary_lol_salope",
+        "key" : "b",
+        "name": "La salope"
+    },
+    {
+        "src" : "bovary_amour_pre",
+        "key" : "a",
+        "name": "L'amour est dans le prè"
     }
 ];
-// c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, w, z, 1
+// a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, z,
 // ? p
 const videoData = [{	
 		"id" : "cyrano",
@@ -143,18 +158,28 @@ const videoData = [{
 	},
 	{
 		"id" : "cleve",
-		"name" : "La princesse de Clève",
+		"name" : "La princesse de Clèves",
 		"youtube" : "ZwZ_i_v1Huk"
 	},
 	{
 		"id" : "misanthrope",
 		"name" : "Le misanthrope",
 		"youtube" : "OuFulRC1vsE"
+	},
+	{
+		"id" : "parfum",
+		"name" : "Le parfum",
+		"youtube" : "Jj1QBxcNmmI"
+	},
+	{
+		"id" : "bovary",
+		"name" : "Madame Bovary",
+		"youtube" : "16ubmu7qbJc"
 	}
 ];
 
 /*
-Le Parfum Jj1QBxcNmmI
+Le Parfum 
 Phèdre m20msXnvIGY
 L'Odyssée t7wq-T6zpOs
 Les liaisons dangereuse _s4q1PbdEMw
@@ -164,4 +189,5 @@ Le petit prince sdETSsEk1-g
 Les misérables aja7Po9XV1s
 Lorenzaccio 4XMw0YWUXVE
 Les fables de La Fontaine irmu5QUtxXI
+ 
 */

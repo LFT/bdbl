@@ -104,9 +104,9 @@ const quoteData = [{
         "name": "Tchao"
     },
     {
-        "src" : "parfum_kermitt",
+        "src" : "parfum_kermit",
         "key" : "v",
-        "name": "Kermitt"
+        "name": "Kermit"
     },
     {
         "src" : "parfum_fouette",
@@ -122,10 +122,75 @@ const quoteData = [{
         "src" : "bovary_amour_pre",
         "key" : "a",
         "name": "L'amour est dans le prè"
+    },
+    {
+        "src" : "fable_babybel",
+        "key" : "B",
+        "name": "Babybel"
+    },
+    {
+        "src" : "fable_lol",
+        "key" : "L",
+        "name": "Lol"
+    },
+    {
+        "src" : "fable_magneto",
+        "key" : "M",
+        "name": "Magneto"
+    },
+    {
+        "src" : "fable_rend_compte",
+        "key" : "R",
+        "name": "Il se rend compte"
+    },
+    {
+        "src" : "goriot_caramel",
+        "key" : "C",
+        "name": "Caramel"
+    },
+    {
+        "src" : "goriot_nous_deux",
+        "key" : "A",
+        "name": "A nous deux"
+    },
+    {
+        "src" : "goriot_terminator",
+        "key" : "T",
+        "name": "Terminator"
+    },
+    {
+        "src" : "goriot_trou_balzac",
+        "key" : "Z",
+        "name": "Balzac"
+    },
+    {
+        "src" : "prince_begonia",
+        "key" : "G",
+        "name": "Mes begonia"
+    },
+    {
+        "src" : "prince_dde",
+        "key" : "D",
+        "name": "DDE"
+    },
+    {
+        "src" : "prince_de_la_merde",
+        "key" : "E",
+        "name": "De la merde"
+    },
+    {
+        "src" : "prince_dessine",
+        "key" : "O",
+        "name": "Dessine moi un mouton"
+    },
+    {
+        "src" : "prince_doue",
+        "key" : "U",
+        "name": "Aussi doué"
     }
 ];
 // a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, z,
-// ? p
+// a, b, c, d, e, g, l, m, o, r, t, u, z
 const videoData = [{	
 		"id" : "cyrano",
 		"name" : "Cyrano de Bergerac",
@@ -175,19 +240,30 @@ const videoData = [{
 		"id" : "bovary",
 		"name" : "Madame Bovary",
 		"youtube" : "16ubmu7qbJc"
+	},
+	{
+		"id" : "prince",
+		"name" : "Le petit prince",
+		"youtube" : "sdETSsEk1-g"
+	},
+	{
+		"id" : "goriot",
+		"name" : "Le père Goriot",
+		"youtube" : "iJHXzlhB6Gk"
+	},
+	{
+		"id" : "fable",
+		"name" : "Les fables de La Fontaine",
+		"youtube" : "irmu5QUtxXI"
 	}
+        
 ];
 
 /*
-Le Parfum 
 Phèdre m20msXnvIGY
 L'Odyssée t7wq-T6zpOs
 Les liaisons dangereuse _s4q1PbdEMw
-Le père Goriot iJHXzlhB6Gk
 Roméo et juliette -Yk48TEGIao
-Le petit prince sdETSsEk1-g
 Les misérables aja7Po9XV1s
-Lorenzaccio 4XMw0YWUXVE
-Les fables de La Fontaine irmu5QUtxXI
- 
+Lorenzaccio 4XMw0YWUXVE 
 */

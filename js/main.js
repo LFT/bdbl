@@ -3,6 +3,7 @@ var quoteTemplate;
 var videoHtmlList;
 var quotes = {};
 var videos = {};
+
 function playOnKeyDown(evt) {
     let key = evt.key;
     if (quotes[key]) {
